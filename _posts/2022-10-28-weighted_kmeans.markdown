@@ -72,5 +72,5 @@ $$
 Finally, we can remove the half coeffient:
 
 $$
-  \sum_{i < j} \alpha_i \alpha_j ||x_i - x_j||^2 = \sum_{i=1}^n \alpha_i||x_i-\mu||^2
+  \frac{\sum_{i < j} \alpha_i \alpha_j ||x_i - x_j||^2}{\sum_j\alpha_j} = \sum_{i=1}^n \alpha_i||x_i-\mu||^2
 $$
