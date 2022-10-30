@@ -3,5 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+title: Home
 ---
-Let's see where this ends up
+
+I'm Jacob Feitelberg, a master's student at Johns Hopkins in the Applied Mathematics Department.
+My interests include Operations Research, Machine Learning, Mixed Integer Programming, and Reinforcement Learning.
