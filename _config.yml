@@ -26,6 +26,7 @@ domain: jacobf18.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jacobf18.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: jacobf18
+linkedin_username: jacob-feitelberg
 
 # Build settings
 theme: minima
