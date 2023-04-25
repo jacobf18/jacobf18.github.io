@@ -7,4 +7,4 @@ title: Home
 ---
 
 I'm Jacob Feitelberg, a master's student at Johns Hopkins in the Applied Mathematics Department.
-My interests include Operations Research, Machine Learning, Mixed Integer Programming, and Reinforcement Learning.
+My interests include Operations Research, Stochastic Control, Machine Learning, Mixed Integer Programming, and Reinforcement Learning.
