@@ -14,6 +14,10 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+  <style>
+    .project { display: flex; gap: 14px; align-items: flex-start; margin-bottom: 10px; }
+    .project img { flex: none; margin-top: 2px; }
+  </style>
 </head>
 <body>
 
@@ -67,11 +71,25 @@
           </div>
             
             
+          <!-- Projects -->
+          <div class="col-md-8">
+              <h2 id="projects">Projects</h2>
+              <div class="project">
+                <a href="https://jacobf18.github.io/MatrixFormer/"><img src="https://jacobf18.github.io/MatrixFormer/assets/logo-64.png" alt="" width="48" height="48"></a>
+                <div>
+                  <a href="https://jacobf18.github.io/MatrixFormer/"><b>MatrixFormer</b></a>: a foundation model for matrix completion. A pretrained transformer fills in the missing entries of any numerical matrix, zero-shot, with no training or fine-tuning.<br>
+                  <a href="https://jacobf18.github.io/MatrixFormer/">Project page</a> · <a href="https://github.com/jacobf18/MatrixFormer">Code</a> · <a href="https://arxiv.org/abs/2610.06751">Paper</a>
+                </div>
+              </div>
+          </div>
+
           <!-- Publications -->
           <div class="col-md-8">
               <h2 id="publications">Publications</h2>
               <strong>Preprints</strong><br/>
               <ul>
+                <li class="paper"><a href="https://arxiv.org/abs/2610.06751"><b>MatrixFormer: A Foundation Model for Matrix Completion</b></a> Dwaipayan Saha*, Jacob Feitelberg*, Kyuseong Choi*, Raaz Dwivedi, Anish Agarwal</li>
+                <ul><li><a href="https://jacobf18.github.io/MatrixFormer/">Project page</a> · <a href="https://github.com/jacobf18/MatrixFormer">Code</a> · <a href="https://huggingface.co/Tabimpute/TabImpute">Weights</a> · *Equal contribution</li></ul>
                 <li class="paper"><a href="https://arxiv.org/abs/2510.02625"><b>TabImpute: Universal Zero-Shot Imputation for Tabular Data</b></a> Jacob Feitelberg, Dwaipayan Saha, Kyuseong Choi, Zaid Ahmad, Anish Agarwal, Raaz Dwivedi</li> 
                 <ul><li>Spotlight at the <a href="https://sites.google.com/view/causal-inference-workshop-26/home">Causal Inference Workshop</a> @ <a href="https://www.sigmetrics.org/sigmetrics2026/">ACM SIGMETRICS 2026</a>.</li></ul>
                 <li class="paper"><a href="https://arxiv.org/abs/2506.04166"><b>N<sup>2</sup>: A Unified Python Package and Test Bench for Nearest Neighbor-Based Matrix Completion</b></a> Caleb Chin, Aashish Khubchandani, Harshvardhan Maskara, Kyuseong Choi, Jacob Feitelberg, Albert Gong, Manit Paul, Tathagata Sadhukhan, Anish Agarwal, Raaz Dwivedi</li> 
